@@ -51,7 +51,7 @@ const ProjectsBody = () => {
         style={{ backgroundImage: `url(${neonBridge})`}}>
 
           {/*Logo placement*/}
-          <div className="flex mt-16 justify-center mb-6">
+          <div className="logo2 flex mt-16 justify-center mb-6">
             <img
             src={newestLogo}
             alt='logo'
@@ -148,7 +148,7 @@ const ProjectsBody = () => {
             {/*Bottom row*/}
             {/*Card #4*/}
             <div className="cardBox wrapper rounded-md py-6 px-2 mx-auto w-full 
-            sm:max-w-md md:max-w-md lg:max-w-[65rem] overflow-y-auto max-h-[calc(100vh-10rem)] md:max-h-[14rem]
+            sm:max-w-md md:max-w-md lg:max-w-[65rem] max-h-[calc(100vh-10rem)] md:max-h-[14rem]
             lg:overflow-y-hidden">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 mb-1">
               <div className="portCard relative bg-white/15 rounded overflow-hidden shadow">
