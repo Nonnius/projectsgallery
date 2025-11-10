@@ -8,6 +8,11 @@
     .cardBox{
          max-height: calc(100vh - 10rem)!important;
     }
+    .logo{
+        width: 3rem!important;
+        height: 3rem!important;
+        margin-bottom: -1rem;
+    }
 }
 
 @media (min-width: 712px) and (orientation: portrait){

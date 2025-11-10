@@ -55,7 +55,7 @@ const ProjectsBody = () => {
             <img
             src={newestLogo}
             alt='logo'
-            className="h-[5rem] w-[5rem] rounded-lg"
+            className="logo h-[5rem] w-[5rem] shrink-0 rounded-lg"
             />
           </div>
           {/*Card Container*/}
