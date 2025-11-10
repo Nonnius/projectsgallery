@@ -4,7 +4,7 @@
     }
 }
 
-@media (min-width: 840px) and (orientation: landscape){
+@media (min-width: 824px) and (orientation: landscape){
     .cardBox{
          max-height: calc(100vh - 10rem)!important;
          margin-top: -1rem;
