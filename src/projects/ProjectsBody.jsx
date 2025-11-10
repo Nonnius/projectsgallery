@@ -147,11 +147,11 @@ const ProjectsBody = () => {
             
             {/*Bottom row*/}
             {/*Card #4*/}
-            <div className="cardBox1 wrapper rounded-md py-6 px-2 mx-auto w-full 
-            sm:max-w-md md:max-w-md lg:max-w-[65rem] max-h-[calc(100vh-10rem)] md:max-h-[14rem]
-            lg:overflow-y-hidden">
+            <div className="cardBox1 wrapper rounded-md py-6 mx-auto w-full 
+            sm:max-w-md md:max-w-md lg:max-w-[65rem] max-h-[calc(100vh-10rem)] md:max-h-[14rem] 
+            lg:overflow-y-hidden lg:max-h-[calc(100vh-27rem)] xl:max-h-[calc(100vh-18rem)]">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 mb-1">
-              <div className="portCard relative bg-white/15 rounded overflow-hidden shadow">
+              <div className="portCard relative bg-white/15 rounded overflow-hidden shadow-lg">
                 <img src={analyticsDB} alt='dashboard' className="w-full h-[12rem] object-cover"/>  
                 {/*Overlay pop-up*/}
                 {openCard ===4 && (
